@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/zeltrixa/public_html
+    - /bin/cp -r dist/* $DEPLOYPATH
